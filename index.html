@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sri Vinayaka Puja Mahotsav — Interim Landing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <img src="assets/poster.jpg" alt="Sri Vinayaka Puja Mahotsav poster" class="poster" onerror="this.style.display='none'">
+      <h1>Sri Vinayaka Puja Mahotsav</h1>
+      <h2 class="org">Sri Vinayaka Mitra Mandali</h2>
+      <p class="dates">18-09-2026 to 21-09-2026 — 46th Annual Celebration</p>
+      <p class="desc">Join us for traditional prayers, rituals, and community celebrations. All are welcome.</p>
+    </header>
+
+    <section class="buttons" role="region" aria-label="Event actions">
+      <button id="instagram" class="btn btn-primary" aria-label="Open Instagram">Instagram</button>
+      <button id="location" class="btn btn-secondary" aria-label="Open location">Location</button>
+      <button id="donate" class="btn btn-accent" aria-label="Donate via UPI">Donate</button>
+    </section>
+
+    <section class="upi-panel" id="upiPanel" aria-hidden="true">
+      <p>UPI ID: <strong id="upiId">aru.appu87@ybl</strong></p>
+      <div class="upi-actions">
+        <button id="copyUpi" class="btn">Copy UPI</button>
+        <a id="upiIntentLink" class="btn btn-accent" href="#">Open in UPI app</a>
+      </div>
+      <p class="note">If your device doesn't open a UPI app automatically, use Copy to paste the UPI ID into your payment app.</p>
+    </section>
+
+    <section class="qr">
+      <p>Scan this QR to open the interim page from mobile:</p>
+      <img alt="QR to interim page" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https%3A%2F%2Fvishnukr445.github.io%2FVinayaka_Mitra_Mandali%2F" />
+      <p class="small">(After publishing via GitHub Pages the QR will open the live page)</p>
+    </section>
+
+    <footer>
+      <p>Contact: <a href="https://www.instagram.com/vmm_1980?igsi=MXJyd2s4bWEzOGljNA==" target="_blank" rel="noopener">Instagram</a> • Venue: <a href="https://goo.gl/maps/pdQANuvVoE4U4Vdz9" target="_blank" rel="noopener">Map</a></p>
+    </footer>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
